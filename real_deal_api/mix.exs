@@ -42,7 +42,8 @@ defmodule RealDealApi.MixProject do
       { :jason, "~> 1.2" },
       { :plug_cowboy, "~> 2.5" },
       { :guardian, "~> 2.3" },
-      { :bcrypt_elixir, "~> 3.0" }
+      { :bcrypt_elixir, "~> 3.0" },
+      { :dialyxir, "~> 0.4", only: [ :dev ] }
     ]
   end
   
